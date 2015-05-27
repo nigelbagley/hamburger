@@ -8,15 +8,20 @@ get_header();  ?>
 
 <div class="main">
   <div class="container">
-  <p>WHATS GOOOD MUTHAFUCKKKKA</p>
+  	<section id="banner">
+						<div class="inner">
+							<h2>Spectral</h2>
+							<p>Another fine responsive<br />
+							site template freebie<br />
+							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">Activate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
 
-    <?php // Start the loop ?>
-    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
-      <h2><?php the_title(); ?></h2>
-      <?php the_content(); ?>
-
-    <?php endwhile; // end the loop?>
+  
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 
