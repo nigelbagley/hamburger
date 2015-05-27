@@ -18,16 +18,32 @@
 
 <header>
   <div class="container">
-    <h1>
+    <!-- <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
+        // <?php bloginfo( 'name' ); ?>
       </a>
-    </h1>
+    </h1> -->
 
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'theme_locations' => 'primary'
-    )); ?>
+  <!--   <?php wp_nav_menu( array(
+      // 'container' => false,
+      // 'theme_locations' => 'primary'
+    )); ?> -->
+    <nav id="nav">
+      <ul>
+        <li class="special">
+          <a href="#menu" class="menuToggle"><span>Menu</span></a>
+          <div id="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="generic.html">Generic</a></li>
+              <li><a href="elements.html">Elements</a></li>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Log In</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
 
