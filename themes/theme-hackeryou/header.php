@@ -9,6 +9,7 @@
 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <?php wp_head(); ?>
 </head>
@@ -18,6 +19,8 @@
 
 <header>
   <div class="container">
+      
+
     <!-- <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         // <?php bloginfo( 'name' ); ?>
@@ -30,15 +33,17 @@
     )); ?> -->
     <nav id="nav">
           <!-- <a href="#menu" class="menuToggle"><span>Menu</span></a> -->
-          <div id="menu">
-            <ul>
+          
+          <!-- <div id="menu"> -->
+          <span class="fa fa-bars fa-2x"></span>
+            <ul class="menu">
               <li><a href="index.html">Home</a></li>
               <li><a href="generic.html">Generic</a></li>
               <li><a href="elements.html">Elements</a></li>
               <li><a href="#">Sign Up</a></li>
               <li><a href="#">Log In</a></li>
             </ul>
-          </div>
+          <!-- </div> -->
     </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
