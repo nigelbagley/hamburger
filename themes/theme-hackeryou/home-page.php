@@ -48,6 +48,13 @@ get_header();  ?>
 			<p>Lorem ipsum dolor.</p>
 			<button>Order Now</button> -->
 		</div>
+
+		<div class="overlay">
+			<div class="modal">
+				This is a modal box. We can close it with the &times; in the corner.
+				<a href="" class="close">&times;</a>
+			</div>
+		</div>
 	</section>
 
 	<section class="catering">
