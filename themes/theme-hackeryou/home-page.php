@@ -13,20 +13,53 @@ get_header();  ?>
 	</section>
 	<section class="hamburgerChoices">
 		<div class="hamburger">
-			<img src="img/burger.jpg" alt="">
-			<h1>lorem</h1>
+			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+			<!-- <h1>lorem</h1>
 			<p>Lorem ipsum dolor.</p>
-			<button>Order Now</button>
+			<button>Order Now</button> -->
 		</div>
 		<div class="hamburger">
 			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
-			<h1>lorem</h1>
+			<!-- <h1>lorem</h1>
 			<p>Lorem ipsum dolor.</p>
-			<button>Order Now</button>
+			<button>Order Now</button> -->
 		</div>
+		<div class="hamburger">
+			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+		<!-- 	<h1>lorem</h1>
+			<p>Lorem ipsum dolor.</p>
+			<button>Order Now</button> -->
+		</div>
+		<div class="hamburger">
+			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+			<!-- <h1>lorem</h1>
+			<p>Lorem ipsum dolor.</p>
+			<button>Order Now</button> -->
+		</div>
+		<div class="hamburger">
+			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+		<!-- 	<h1>lorem</h1>
+			<p>Lorem ipsum dolor.</p>
+			<button>Order Now</button> -->
+		</div>
+		<div class="hamburger">
+			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+			<!-- <h1>lorem</h1>
+			<p>Lorem ipsum dolor.</p>
+			<button>Order Now</button> -->
+		</div>
+	</section>
 
+	<section class="catering">
+	<div class="container">
+		  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+			
+			<h1><?php the_title(); ?></h1>
 
+			<p><?php the_content();?></p>
 
+		<?php endwhile; // end of the loop. ?>
+	</div>
 	</section>
 <!-- Banner -->
 <div class="main">
