@@ -29,9 +29,7 @@
       // 'theme_locations' => 'primary'
     )); ?> -->
     <nav id="nav">
-      <ul>
-        <li class="special">
-          <a href="#menu" class="menuToggle"><span>Menu</span></a>
+          <!-- <a href="#menu" class="menuToggle"><span>Menu</span></a> -->
           <div id="menu">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -41,8 +39,6 @@
               <li><a href="#">Log In</a></li>
             </ul>
           </div>
-        </li>
-      </ul>
     </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
