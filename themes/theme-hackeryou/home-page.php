@@ -7,7 +7,7 @@
 get_header();  ?>
  	<section class="bannerHeader">
 	 	<div class="headerMain">
-	 		<h1>Hey there, want a burger?</h1>
+	 		<h1>Hey there, go fuckyourself?</h1>
 	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta, sequi perferendis dignissimos voluptatum magnam illo aperiam ut, optio beatae!</p>
 	 	</div>	
 	</section>
