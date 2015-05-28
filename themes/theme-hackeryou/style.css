@@ -306,7 +306,8 @@ p.form-allowed-tags, .nocomments { display:none; }
 
 
 .bannerHeader{
-  background:grey;
+  background-image: url(img/heroImage.jpg);
+
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
