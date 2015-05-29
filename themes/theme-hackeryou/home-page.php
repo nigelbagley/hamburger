@@ -51,22 +51,26 @@ get_header();  ?>
 
 		<div class="overlay">
 			<div class="modal">
-				This is a modal box. We can close it with the &times; in the corner.
+				<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
+				<div class="info">
+					<p>ex: General Info About Burger</p>
+					<p>$10.99</p>
+				</div>
 				<a href="" class="close">&times;</a>
 			</div>
 		</div>
 	</section>
 
 	<section class="catering">
-	<div class="container">
-		  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-			
-			<h1><?php the_title(); ?></h1>
+		<div class="container">
+			  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+				
+				<h1><?php the_title(); ?></h1>
 
-			<p><?php the_content();?></p>
+				<p><?php the_content();?></p>
 
-		<?php endwhile; // end of the loop. ?>
-	</div>
+			<?php endwhile; // end of the loop. ?>
+		</div>
 	</section>
 <!-- Banner -->
 <div class="main">

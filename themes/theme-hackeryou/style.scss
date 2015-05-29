@@ -391,20 +391,15 @@ nav .menu.open{
 }
 .close {
   position: absolute;
-  right: -15px;
-  top: -15px;
-  border: 2px solid black;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  right: 10px;
+  top: 0px;
   text-align: center;
   color: black;
-  background: white;
-  text-decoration: none;
 }
 .modal img {
   float: left;
   margin-right: 15px;
+  width:50%;
 }
 // Home Page styling Starts
 @import "styles/_homePage.scss";
