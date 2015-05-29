@@ -309,6 +309,46 @@ p.form-allowed-tags, .nocomments { display:none; }
 
 
 
+.bannerHeader{
+  background-image: url(img/heroImage.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
 
+.headerMain{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color:white;
+  margin:auto;
+}
+.hamburger{
+  width: 33.33%;
+  float: left;
+}
+
+.container{
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+}
+
+form{
+  display: flex;
+}
 @import "homePage";
 
