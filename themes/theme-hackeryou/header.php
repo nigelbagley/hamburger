@@ -32,19 +32,18 @@
       // 'container' => false,
       // 'theme_locations' => 'primary'
     )); ?> -->
-    <nav id="nav">
-          <!-- <a href="#menu" class="menuToggle"><span>Menu</span></a> -->
-          
-          <!-- <div id="menu"> -->
-          <span class="fa fa-bars fa-2x"></span>
-            <ul class="menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="generic.html">Generic</a></li>
-              <li><a href="elements.html">Elements</a></li>
-              <li><a href="#">Sign Up</a></li>
-              <li><a href="#">Log In</a></li>
-            </ul>
-          <!-- </div> -->
+    <nav class="sideNav">
+      <span class="fa fa-bars fa-2x" title="menu"></span>
+      <ul class="dropdown wrapper">
+        <li><a href="">New Arrivals</a></li>
+        <li><a href="">Women</a></li>
+        <li><a href="">Men</a></li>
+        <li><a href="">Accessories</a></li>
+        <li><a href="">Dress</a></li>
+        <li><a href="">Sale-Off</a></li>
+        <li><a href="">Look Book</a></li>
+        <li><a href="">This Week</a></li>
+      </ul>
     </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->

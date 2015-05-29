@@ -75,12 +75,13 @@ body {
 
 /* links */
 a {
-  color:#BA209B;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #D424B1;
+  color: #1FA3BF;
+  transition: all 0.5s;
 }
 
 /* paragraphs */
@@ -356,12 +357,35 @@ header .container{
   position: fixed;
 }
 
-nav .menu{
-  display: none;
+header .sideNav {
+  position: relative;
+  .fa-bars {
+    display: block;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
 }
 
-nav .menu.open{
+.sideNav .dropdown{
+  display:none;
+  height: 100vh;
+  width: 300px;
+  background: yellow;
+  position: absolute;
+  li{
+    display: block;
+    padding:10px;
+  }
+  a{
+    padding: 10px;
+  }
+}
+
+.sideNav .dropdown.open {
   display: block;
+  z-index: 10;
 }
 
 .overlay {
@@ -400,6 +424,10 @@ nav .menu.open{
   float: left;
   margin-right: 15px;
   width:50%;
+}
+
+.fa-bars:hover{
+  color: #1FA3BF;
 }
 // Home Page styling Starts
 @import "styles/_homePage.scss";
