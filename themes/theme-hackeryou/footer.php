@@ -4,7 +4,7 @@
     <p>&copy; BurgerPlace <?php echo date('Y'); ?></p>
     </div>
     <div class="socialIcons">
-    	<i class="fa fa-facebook"></i>
+    	<i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-instagram"></i>
     </div>
   </div>
 </footer>
