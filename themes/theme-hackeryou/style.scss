@@ -49,6 +49,10 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .container {
   max-width:800px;
   margin:0 auto;
@@ -357,8 +361,51 @@ header .container{
   position: fixed;
 }
 
+.mainNav{
+  position: fixed;
+  top:0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  transition: all .5s;
+  z-index: 10;
+}
+
+.mainNav2 li{
+  margin-left: 80px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid red;
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.mainNav li {
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all .5s;
+  
+}
+
+.mainNav a{
+  color: red;
+  text-shadow: 1px 1px #111;
+  transition: all 0.5s;
+}
+
+.mainNav a:hover{
+  color: yellow;
+}
+
+
 header .sideNav {
   position: relative;
+  z-index: 10;
+  transition: all .5s;
+  
   .fa-bars {
     display: block;
     padding: 5px;

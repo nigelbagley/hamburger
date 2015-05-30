@@ -32,6 +32,14 @@
       // 'container' => false,
       // 'theme_locations' => 'primary'
     )); ?> -->
+    <nav class="mainNav">
+      <ul>
+        <li><a href="http://localhost/hamburger/home/">Home</a></li>
+        <li><a href="http://localhost/hamburger/about/">About</a></li>
+        <li><a href="http://localhost/hamburger/blog/">Blog</a></li>
+      </ul>
+    </nav><!-- End mainNav -->
+
     <nav class="sideNav">
       <span class="fa fa-bars fa-2x" title="menu"></span>
       <ul class="dropdown wrapper">
