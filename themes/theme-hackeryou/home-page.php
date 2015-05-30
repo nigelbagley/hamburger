@@ -5,13 +5,13 @@
 */
 
 get_header();  ?>
- 	<section class="bannerHeader">
+ 	<div class="bannerHeader">
 	 	<div class="headerMain">
 	 		<h1>Hey there, go to hell :)</h1>
 	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta, sequi perferendis dignissimos voluptatum magnam illo aperiam ut, optio beatae!</p>
 	 	</div>	
-	</section>
-	<section class="hamburgerChoices">
+	</div>
+	<div class="hamburgerChoices clearfix">
 		<div class="hamburger">
 			<img src="<?php bloginfo('template_directory') ?>/img/burger.jpg" alt="">
 			<!-- <h1>lorem</h1>
@@ -59,19 +59,22 @@ get_header();  ?>
 				<a href="" class="close">&times;</a>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section class="catering">
-		<div class="container">
-			  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-				
-				<h1><?php the_title(); ?></h1>
+	<div class="catering clearfix">
+		<div class="wrapper">
+			
+				  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+					
+					<h1><?php the_title(); ?></h1>
+					<hr>
 
-				<p><?php the_content();?></p>
+					<p><?php the_content();?></p>
 
-			<?php endwhile; // end of the loop. ?>
+				<?php endwhile; // end of the loop. ?>
+				<?php echo do_shortcode( '[contact-form-7 id="10" title="Catering Contact Form"]' ); ?>
 		</div>
-	</section>
+	</div>
 <!-- Banner -->
 <div class="main">
   <div class="container">

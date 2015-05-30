@@ -1,6 +1,11 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="wrapperFooter">
+  <div class="burger">
+    <p>&copy; BurgerPlace <?php echo date('Y'); ?></p>
+    </div>
+    <div class="socialIcons">
+    	<i class="fa fa-facebook"></i>
+    </div>
   </div>
 </footer>
 

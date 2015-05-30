@@ -27,15 +27,60 @@
   float: left;
 }
 
-.container{
+
+.catering{
+  // background:#FFFAFD;
+  background-image: url(img/brickwall.png);
+  padding-bottom: 60px;
+  // width: 800px;
+  // margin:0 auto;
   h1{
-    text-align: center;
+    color: red;
+    margin: 0;
   }
+
+}
+form{
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
   p{
-    // text-align: center;
+    margin:0;
   }
 }
 
-form{
-  display: flex;
+input[type="text"]{
+  // float:left;
+  width: 100%;
+  border:none;
+  border: 1px solid red;
+  margin-bottom: 15px;
+}
+input[type="email"]{
+  // float:left;
+  width: 100%;
+  border:none;
+  border: 1px solid red;
+  margin-bottom: 15px;
+
+}
+
+input[type="submit"]{
+  position: absolute;
+  left: 0;
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+textarea{
+  width: 100%;
+  border:none;
+  border: 1px solid red;
+  margin-bottom: 15px;
+}
+
+.wrapper{
+  width: 800px;
+  margin:0 auto;
 }
