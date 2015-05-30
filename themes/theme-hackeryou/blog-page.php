@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Template Name: About-page
+	Template Name: Blog-page
 */
 
 get_header();  ?>
@@ -10,12 +10,13 @@ get_header();  ?>
 
  	</section>
 
-
 	<div class="wallpaper clearfix">
 	 	<div class="container">
-	 	<h1>About Us:</h1>
+	 	<h1>Blog</h1>
 		 	<div class="aboutContainer">
-		 		<div class="aboutUs">
+		 	
+		 	<?php echo do_shortcode( '[add_posts category=category-slug tag=tag-slug show=5] ' ); ?>
+		 	<!-- 	<div class="aboutUs">
 		 			<i class="fa fa-cutlery"></i>
 		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
 		 		</div>
@@ -32,29 +33,13 @@ get_header();  ?>
 		 		<div class="aboutUs">
 		 			<i class="fa fa-building-o"></i>
 		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
-		 		</div>
+		 		</div> -->
+
 		 	</div>
 	 	</div>
 	 </div>
- 	<div class="wallpaper clearfix">
- 	<div class="container">
- 	<div class="founderTitle">
- 	<h1>Founders:</h1>
- 	</div>
- 		<div class="founders">
- 			<img src="http://www.fillmurray.com/200/200" alt="">
- 			<p>Lorem ipsum dolor sit amet.</p>
- 		</div>
- 		<div class="founders">
- 			<img src="http://www.fillmurray.com/200/200" alt="">
- 			<p>Lorem ipsum dolor sit amet.</p>
- 		</div>
- 		<div class="founders">
- 			<img src="http://www.fillmurray.com/200/200" alt="">
- 			<p>Lorem ipsum dolor sit amet.</p>
- 		</div>
- 	</div>
-	</div>
+ 	
+
 <!-- Banner -->
 <div class="main">
   <div class="container">
