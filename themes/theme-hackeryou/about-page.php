@@ -10,41 +10,37 @@ get_header();  ?>
 
  	</section>
 
- 	<section>
- 			<div class="container">
-			  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-				
-				<h1><?php the_title(); ?></h1>
 
-				<p><?php the_content();?></p>
-
-			<?php endwhile; // end of the loop. ?>
-		</div>
+	<div class="wallpaper clearfix">
+	 	<div class="container">
+	 	<h1>About Us:</h1>
+		 	<div class="aboutContainer">
+		 		<div class="aboutUs">
+		 			<i class="fa fa-cutlery"></i>
+		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
+		 		</div>
+		 		<div class="aboutUs">
+		 			<i class="fa fa-building-o"></i>
+		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
+		 		</div>
+		 	</div>
+		 	<div class="aboutContainer2">
+		 		<div class="aboutUs">
+		 			<i class="fa fa-cutlery"></i>
+		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
+		 		</div>
+		 		<div class="aboutUs">
+		 			<i class="fa fa-building-o"></i>
+		 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
+		 		</div>
+		 	</div>
+	 	</div>
+	 </div>
+ 	
  	<div class="container">
- 	<div class="aboutContainer">
- 		<div class="aboutUs">
- 			<i class="fa fa-cutlery"></i>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
- 		</div>
- 		<div class="aboutUs">
- 			<i class="fa fa-building-o"></i>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
- 		</div>
- 	</div>
- 	<div class="aboutContainer2">
- 		<div class="aboutUs">
- 			<i class="fa fa-cutlery"></i>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
- 		</div>
- 		<div class="aboutUs">
- 			<i class="fa fa-building-o"></i>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, nesciunt!</p>
- 		</div>
- 	</div>
- 	</div>
- 	</section>
- 	<div class="container">
+ 	<div class="founderTitle">
  	<h1>Founders</h1>
+ 	</div>
  		<div class="founders">
  			<img src="http://www.fillmurray.com/200/200" alt="">
  			<p>Lorem ipsum dolor sit amet.</p>

@@ -21,6 +21,7 @@
 .aboutContainer2{
   width: 50%;
   float: left;
+
 }
 .founders{
   width: 33.33%;
@@ -28,4 +29,43 @@
   img{
     border-radius:50%;
   }
+}
+.wallpaper{
+  background-image: url(img/brickwall.png);
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+h1{
+  margin:0;
+}
+.aboutUs{
+  background-color: rgba(255, 255, 255, 0.41);
+  border-radius: 11px;
+  padding: 5px;
+  margin: 18px;
+  position: relative;
+  .fa{
+    position: absolute;
+    top: -6px;
+    left: -2px;
+    color: red;
+  }
+}
+.wallpaper{
+  h1{
+    color: white;
+      margin: 0;
+      background-color: red;
+      width: 164px;
+      padding: 5px;
+  }
+}
+
+.founderTitle{
+  color: white;
+  margin: 0;
+  background-color: red;
+  width: 164px;
+  padding: 5px;
 }
