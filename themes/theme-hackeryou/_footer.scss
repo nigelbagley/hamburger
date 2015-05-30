@@ -1,14 +1,21 @@
 footer{
 	background:red;
+	padding: 10px;
 	p{
 		margin: 0;
 		// text-align: center;
 		color:white;
 	}
+
 }
 .wrapperFooter{
 	width: 800px;
   	margin:0 auto;
-  	align-content: space-between;
+  	-webkit-align-content: space-between;
+  	justify-content: space-between;
   	display: flex;
+}
+
+.fa{
+	color: white;
 }

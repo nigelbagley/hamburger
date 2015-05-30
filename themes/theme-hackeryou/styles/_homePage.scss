@@ -32,11 +32,15 @@
   // background:#FFFAFD;
   background-image: url(img/brickwall.png);
   padding-bottom: 60px;
+  padding-top: 30px;
   // width: 800px;
   // margin:0 auto;
   h1{
-    color: red;
-    margin: 0;
+   color: white;
+   margin: 0;
+   background-color: red;
+   width: 142px;
+   padding: 5px;
   }
 
 }
@@ -44,6 +48,7 @@ form{
   width: 700px;
   margin: 0 auto;
   position: relative;
+  margin-top: 39px;
   p{
     margin:0;
   }
@@ -79,7 +84,11 @@ textarea{
   border: 1px solid red;
   margin-bottom: 15px;
 }
-
+label{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
 .wrapper{
   width: 800px;
   margin:0 auto;
