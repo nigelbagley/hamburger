@@ -34,11 +34,11 @@
     )); ?> -->
     <nav class="mainNav">
       <ul>
-        <li><a href="#about">Home</a></li>
-        <li><a href="#portfolio">About</a></li>
-        <li><a href="#contact">Blog</a></li>
+        <li><a href="http://localhost/hamburger/home/">Home</a></li>
+        <li><a href="http://localhost/hamburger/about/">About</a></li>
+        <li><a href="http://localhost/hamburger/blog/">Blog</a></li>
       </ul>
-    </nav>
+    </nav><!-- End mainNav -->
 
     <nav class="sideNav">
       <span class="fa fa-bars fa-2x" title="menu"></span>

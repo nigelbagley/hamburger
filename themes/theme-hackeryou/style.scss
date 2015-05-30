@@ -361,7 +361,7 @@ header .container{
   position: fixed;
 }
 
-header .mainNav{
+.mainNav{
   position: fixed;
   top:0;
   text-transform: uppercase;
@@ -369,20 +369,37 @@ header .mainNav{
   letter-spacing: 1px;
   width: 100%;
   text-align: center;
+  transition: all .5s;
   z-index: 10;
 }
 
-header .mainNav li {
- // display: inline-block; 
-  padding: 20px;
-  transition: all .5s;
-  display: none;
+.mainNav2 li{
+  margin-left: 80px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid red;
+  &:first-child{
+    margin-left: 0;
+  }
 }
 
-header .mainNav2 li{
-  background: rgba(0,0,0,0.8);
-  display: inline-block;  
+.mainNav li {
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all .5s;
+  
 }
+
+.mainNav a{
+  color: red;
+  text-shadow: 1px 1px #111;
+  transition: all 0.5s;
+}
+
+.mainNav a:hover{
+  color: yellow;
+}
+
 
 header .sideNav {
   position: relative;
