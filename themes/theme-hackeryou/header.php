@@ -32,6 +32,14 @@
       // 'container' => false,
       // 'theme_locations' => 'primary'
     )); ?> -->
+    <nav class="mainNav">
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#portfolio">About</a></li>
+        <li><a href="#contact">Blog</a></li>
+      </ul>
+    </nav>
+
     <nav class="sideNav">
       <span class="fa fa-bars fa-2x" title="menu"></span>
       <ul class="dropdown wrapper">

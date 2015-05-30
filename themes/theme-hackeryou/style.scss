@@ -49,6 +49,10 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .container {
   max-width:1200px;
   margin:0 auto;
@@ -357,8 +361,34 @@ header .container{
   position: fixed;
 }
 
+header .mainNav{
+  position: fixed;
+  top:0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+header .mainNav li {
+ // display: inline-block; 
+  padding: 20px;
+  transition: all .5s;
+  display: none;
+}
+
+header .mainNav2 li{
+  background: rgba(0,0,0,0.8);
+  display: inline-block;  
+}
+
 header .sideNav {
   position: relative;
+  z-index: 10;
+  transition: all .5s;
+  
   .fa-bars {
     display: block;
     padding: 5px;
