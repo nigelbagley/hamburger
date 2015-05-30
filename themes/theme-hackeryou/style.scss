@@ -135,7 +135,9 @@ pre {
    ========================================================================== */
 .sidebar {
   width:30%;
-  float:left;
+  // float:left;
+  position: absolute;
+  right: -10px;
 }
   .sidebar ul {
     margin:0;
