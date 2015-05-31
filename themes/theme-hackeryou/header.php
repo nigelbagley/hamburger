@@ -50,14 +50,14 @@
         </li>
         <li><img src="wp-content/themes/theme-hackeryou/img/burgerLogo.png"></li>
         <li>123 Fake St. Fakeland USA, 90210</li>
-        <li>Open 24hrs 7 Days a Week</li>
+        <li>123-456-7891</li>
         <li>
           <a href="http://facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
           <a href="http://twitter.com" target="blank"><i class="fa fa-twitter"></i></a>
           <a href="http://instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
         </li>
-        <li>COPYRIGHT &copy; 2015 | Hamburer</li>
-      </ul>
+        <li>&copy; BurgerPlace 2015</li>
+      </ul> 
     </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
