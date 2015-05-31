@@ -49,7 +49,7 @@ header .container{
 header .sideNav {
   position: relative;
   z-index: 10;
-  transition: all .5s;
+  transition: all 0.5s;
   text-align: center;
   .fa-bars {
     display: block;
@@ -57,7 +57,12 @@ header .sideNav {
     color: black;
     cursor: pointer;
     transition: all 0.5s;
+    font-size: 30px;
   }
+}
+
+.fa-bars:hover{
+  color: red;
 }
 
 .sideNav .dropdown{
@@ -78,7 +83,6 @@ header .sideNav {
 
 .sideNav .dropdown.open {
   display: block;
-  z-index: 10;
 }
 
 .sideNav li{
@@ -89,10 +93,6 @@ header .sideNav {
 
 .sideNav li a:hover{
   color: #c1272d;
-}
-
-.sideNav li:nth-child(5){
-
 }
 
 .sideNav li:last-child{
