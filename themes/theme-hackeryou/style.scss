@@ -84,7 +84,6 @@ a {
 }
 
 a:hover {
-  color: #1FA3BF;
   transition: all 0.5s;
 }
 
@@ -429,6 +428,7 @@ header .sideNav {
   }
   a{
     padding: 10px;
+    transition: all .5s;
   }
 }
 
@@ -438,8 +438,31 @@ header .sideNav {
 }
 
 .sideNav li{
-  margin: 30px;
+  margin: 30px 5px;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.sideNav li a:hover{
+  color: #c1272d;
+}
+
+.sideNav li:nth-child(5){
+
+}
+
+.sideNav li:last-child{
+  border-top: 1px solid black;
+  font-size: 14px;
+}
+
+.sideNav li .fa{
+  color: black;
+  font-size: 40px;
+  transition: all .5s;
+  &:hover{
+    color: #c1272d;
+  }
 }
 
 .overlay {
@@ -483,6 +506,7 @@ header .sideNav {
 .fa-bars:hover{
   color: #1FA3BF;
 }
+
 // Home Page styling Starts
 @import "styles/_homePage.scss";
 @import "_aboutPage.scss";
