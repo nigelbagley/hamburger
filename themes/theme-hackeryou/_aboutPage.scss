@@ -1,14 +1,15 @@
+.wallpaper .wrapper{
+  margin: 0 auto;
+}
+
 .aboutHeader{
   background-image: url(img/burgerRestaraunt.jpg);
   height: 50vh;
   background-attachment: fixed;
-  // background:grey;
-
 }
 
 .aboutContainer{
   width: 50%;
-  margin: 0 auto;
   float: left;
 }
 .fa-cutlery{
@@ -18,11 +19,7 @@
 .fa-building-o{
   float: left;
 }
-.aboutContainer2{
-  width: 50%;
-  float: left;
 
-}
 .founders{
   width: 33.33%;
   float: left;
