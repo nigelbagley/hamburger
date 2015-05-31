@@ -407,7 +407,7 @@ header .sideNav {
   position: relative;
   z-index: 10;
   transition: all .5s;
-  
+  text-align: center;
   .fa-bars {
     display: block;
     padding: 5px;
@@ -435,6 +435,11 @@ header .sideNav {
 .sideNav .dropdown.open {
   display: block;
   z-index: 10;
+}
+
+.sideNav li{
+  margin: 30px;
+  font-weight: bold;
 }
 
 .overlay {
