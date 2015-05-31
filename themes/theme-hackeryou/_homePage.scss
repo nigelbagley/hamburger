@@ -32,14 +32,10 @@
   float: left;
 }
 
-
 .catering{
-  // background:#FFFAFD;
   background-image: url(img/brickwall.png);
   padding-bottom: 60px;
   padding-top: 30px;
-  // width: 800px;
-  // margin:0 auto;
   h1{
    color: white;
    margin: 0;
@@ -50,7 +46,7 @@
 
 }
 form{
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   position: relative;
   margin-top: 39px;
@@ -60,14 +56,12 @@ form{
 }
 
 input[type="text"]{
-  // float:left;
   width: 100%;
   border:none;
   border: 1px solid #c1272d;
   margin-bottom: 15px;
 }
 input[type="email"]{
-  // float:left;
   width: 100%;
   border:none;
   border: 1px solid #c1272d;
@@ -90,11 +84,11 @@ textarea{
   margin-bottom: 15px;
 }
 label{
-    background-color: #c1272d;
-    color: white;
-    padding: 5px;
+  background-color: #c1272d;
+  color: white;
+  padding: 5px;
 }
-.wrapper{
-  width: 800px;
+.catering .wrapper{
+  max-width: 800px;
   margin:0 auto;
 }
