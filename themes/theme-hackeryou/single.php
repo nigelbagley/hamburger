@@ -2,7 +2,7 @@
 
 <div class="main">
   <div class="container">
-  <p>Hi! I'm editing Single.php</p>
+  <!-- <p>Hi! I'm editing Single.php</p> -->
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
