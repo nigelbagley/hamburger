@@ -46,8 +46,8 @@
       <ul class="dropdown wrapper">
         <li>
           <a href="<?php echo home_url( '/' ); ?>">Home</a>
-          <a href="">About</a>
-          <a href="http://localhost/hamburger/blog/">Blog</a>
+          <a href="<?php echo get_page_link(get_page_by_title(about)); ?>">About</a>
+          <a href="<?php echo get_page_link(get_page_by_title(blog)); ?>">Blog</a>
         </li>
         <li><img src="wp-content/themes/theme-hackeryou/img/burgerLogo.png"></li>
         <li>123 Fake St. Fakeland USA, 90210</li>
