@@ -1,5 +1,8 @@
 <?php get_header(); ?>
+<section class="blogHeader">
+  
 
+</section>
 <div class="main">
   <div class="container">
     <div class="content">
