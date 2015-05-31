@@ -43,11 +43,20 @@
     <nav class="sideNav">
       <span class="fa fa-bars fa-2x" title="menu"></span>
       <ul class="dropdown wrapper">
-        <li>LOCATION: 123 Fake St.</li>
-        <li>HOURS: Open 24hrs 7 Days a Week</li>
-        <li>Social Links</li>
+        <li>
+          <a href="<?php echo home_url( '/' ); ?>">Home</a>
+          <a href="">About</a>
+          <a href="http://localhost/hamburger/blog/">Blog</a>
+        </li>
+        <li><img src="wp-content/themes/theme-hackeryou/img/burgerLogo.png"></li>
+        <li>123 Fake St. Fakeland USA, 90210</li>
+        <li>Open 24hrs 7 Days a Week</li>
+        <li>
+          <a href="http://facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+          <a href="http://twitter.com" target="blank"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+        </li>
         <li>COPYRIGHT &copy; 2015 | Hamburer</li>
-        <li>IMAGES YO</li>
       </ul>
     </nav>
   </div> <!-- /.container -->
