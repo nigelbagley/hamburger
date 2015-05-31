@@ -1,4 +1,4 @@
-.bannerHeader{
+bannerHeader{
   background-image: url(img/heroImage.jpg);
   height: 100vh;
   background-attachment: fixed;
@@ -22,6 +22,11 @@
   color:white;
   margin:auto;
 }
+
+.hamburgerChoices{
+  font-size: 0;
+}
+
 .hamburger{
   width: 33.33%;
   float: left;
@@ -38,7 +43,7 @@
   h1{
    color: white;
    margin: 0;
-   background-color: red;
+   background-color: #c1272d;
    width: 142px;
    padding: 5px;
   }
@@ -58,14 +63,14 @@ input[type="text"]{
   // float:left;
   width: 100%;
   border:none;
-  border: 1px solid red;
+  border: 1px solid #c1272d;
   margin-bottom: 15px;
 }
 input[type="email"]{
   // float:left;
   width: 100%;
   border:none;
-  border: 1px solid red;
+  border: 1px solid #c1272d;
   margin-bottom: 15px;
 
 }
@@ -73,7 +78,7 @@ input[type="email"]{
 input[type="submit"]{
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: #c1272d;
   border: none;
   padding: 10px;
   color: white;
@@ -81,11 +86,11 @@ input[type="submit"]{
 textarea{
   width: 100%;
   border:none;
-  border: 1px solid red;
+  border: 1px solid #c1272d;
   margin-bottom: 15px;
 }
 label{
-    background-color: red;
+    background-color: #c1272d;
     color: white;
     padding: 5px;
 }
