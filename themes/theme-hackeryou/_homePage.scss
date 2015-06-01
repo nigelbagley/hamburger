@@ -43,12 +43,11 @@
    width: 142px;
    padding: 5px;
   }
-
 }
+
 form{
   max-width: 700px;
   margin: 0 auto;
-  position: relative;
   margin-top: 39px;
   p{
     margin:0;
@@ -70,7 +69,6 @@ input[type="email"]{
 }
 
 input[type="submit"]{
-  position: absolute;
   left: 0;
   background-color: #c1272d;
   border: none;
