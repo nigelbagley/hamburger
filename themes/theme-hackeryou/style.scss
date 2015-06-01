@@ -315,7 +315,8 @@ p.form-allowed-tags, .nocomments { display:none; }
 
 /* single */
 
-#post .wrapper{
+main .container{
+  margin: 1000px auto;
   max-width: 800px;
 }
 
