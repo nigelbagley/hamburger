@@ -313,6 +313,12 @@ p.form-allowed-tags, .nocomments { display:none; }
 
 /*New CSS*/
 
+/* single */
+
+#post .wrapper{
+  max-width: 800px;
+}
+
 
 @import "_header.scss";
 @import "_homePage.scss";
