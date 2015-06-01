@@ -53,17 +53,17 @@ get_header();  ?>
 	 			</div>
 				<div class="founders">
 					<img src="http://www.fillmurray.com/200/200" alt="">
-					<h3>John Mauser</h3>
+					<h4>John Mauser</h4>
 					<p>Lorem ipsum dolor sit amet.</p>
 				</div>
 				<div class="founders">
 					<img src="http://www.fillmurray.com/200/200" alt="">
-					<h3>Nigel Bagley</h3>
+					<h4>Nigel Bagley</h4>
 					<p>Lorem ipsum dolor sit amet.</p>
 				</div>
 				<div class="founders">
 					<img src="http://www.fillmurray.com/200/200" alt="">
-					<h3>Joni Bama</h3>
+					<h4>Joni Bama</h4>
 					<p>Lorem ipsum dolor sit amet.</p>
 				</div>
 			</div>
