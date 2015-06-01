@@ -8,8 +8,9 @@ footer{
 	}
 
 }
-.wrapperFooter{
-	width: 800px;
+
+footer .wrapper{
+	max-width: 800px;
   	margin:0 auto;
   	-webkit-align-content: space-between;
   	justify-content: space-between;

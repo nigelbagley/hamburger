@@ -2,11 +2,11 @@
 
 <div class="main">
   <div class="container">
-  <!-- <p>Hi! I'm editing Single.php</p> -->
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <div class="wrapper">
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
           <div class="entry-meta">
@@ -31,6 +31,7 @@
             <?php hackeryou_posted_in(); ?>
             <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?>
           </div><!-- .entry-utility -->
+          </div>
         </div><!-- #post-## -->
 
         <div id="nav-below" class="navigation">
@@ -47,6 +48,7 @@
     <?php get_sidebar(); ?>
 
   </div> <!-- /.container -->
+
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>

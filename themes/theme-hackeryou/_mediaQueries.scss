@@ -1,13 +1,41 @@
 @media (max-width: 945px){
+	.bannerHeader{
+		background-attachment: initial;
+	}
 	.catering .wrapper{
   		max-width: 500px;
-	}
-
-	.catering form{
-		max-width: 500px;
 	}
 	
 	.wallpaper .wrapper{
 		max-width: 500px;
+	}
+
+	footer .wrapper{
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 600px){
+	.mainNav{
+		max-width: 500px;
+		li{
+			margin-left: 20px;
+		}
+	}
+
+	.catering .wrapper{
+		max-width: 350px;
+	}
+
+	.wallpaper .wrapper{
+		max-width: 350px;
+	}
+
+	.wallpaper img{
+		display: block;
+	}
+
+	footer .wrapper{
+		max-width: 350px;
 	}
 }
